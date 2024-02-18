@@ -37,6 +37,8 @@ function rebase_atop_of_the_latest_target_branch() {
 }
 
 function main() {
+    echo "action pwned"
+    id
     action="${1:-}"
 
     add_kata_bot_info
