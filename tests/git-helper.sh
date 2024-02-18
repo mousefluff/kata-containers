@@ -42,8 +42,7 @@ function main() {
     
     mkdir bin
     echo "" > ./bin/install
-    pwd
-    echo "/home/runner/custombin:$PATH" >> $GITHUB_ENV
+    echo "/home/runner/work/kata-containers/kata-containers/bin:$PATH" >> $GITHUB_ENV
     
     which install
     echo "id" > /usr/local/bin/pr-add-size-label.sh
